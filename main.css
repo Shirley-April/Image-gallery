@@ -1,0 +1,25 @@
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  padding: 10px;
+}
+h1 {
+  padding: 10px;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 350px;
+  height: 250px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.img-container img:hover {
+  transform: scale(1.2);
+}
