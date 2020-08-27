@@ -1,7 +1,6 @@
-
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
   padding: 10px;
 }
@@ -9,14 +8,14 @@ h1 {
   padding: 10px;
 }
 
-.img-container {
+/* .img-container {
   overflow: hidden;
-}
+} */
 
 .img-container img {
   width: 350px;
   height: 250px;
-  transition: all 0.3s ease-out;
+  transition: all 5s ease-out;
   cursor: pointer;
 }
 
